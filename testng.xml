@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Extent Suite">
+    <listeners>
+        <listener class-name="com.restassured.api.utilities.ExtentTestNGListener" />
+    </listeners>
+    <test name="restAssured Tests">
+        <classes>
+            <class name="com.restassured.api.api_test.UserTests"/>
+        </classes>
+    </test>
+</suite> 
+
+<!-- To run the testng.xml file from bash (mvn claen test -DsuiteXmlFile=testng.xml)-->

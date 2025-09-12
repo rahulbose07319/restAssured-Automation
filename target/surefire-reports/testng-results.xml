@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-13T03:33:23 IST" name="Extent Suite" finished-at="2025-09-13T03:33:33 IST" duration-ms="10130">
+    <groups>
+    </groups>
+    <test started-at="2025-09-13T03:33:23 IST" name="restAssured Tests" finished-at="2025-09-13T03:33:33 IST" duration-ms="10130">
+      <class name="com.restassured.api.api_test.UserTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.restassured.api.api_test.UserTests@4b6166aa]" started-at="2025-09-13T03:33:23 IST" name="setup" finished-at="2025-09-13T03:33:24 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetAllUsers()[pri:1, instance:com.restassured.api.api_test.UserTests@4b6166aa]" started-at="2025-09-13T03:33:24 IST" name="testGetAllUsers" finished-at="2025-09-13T03:33:29 IST" duration-ms="5023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllUsers -->
+        <test-method signature="testCreateUser()[pri:2, instance:com.restassured.api.api_test.UserTests@4b6166aa]" started-at="2025-09-13T03:33:29 IST" name="testCreateUser" finished-at="2025-09-13T03:33:30 IST" duration-ms="1038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testGetSpecificUser()[pri:3, instance:com.restassured.api.api_test.UserTests@4b6166aa]" started-at="2025-09-13T03:33:30 IST" name="testGetSpecificUser" finished-at="2025-09-13T03:33:32 IST" duration-ms="2285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSpecificUser -->
+        <test-method signature="testUpdateUser()[pri:4, instance:com.restassured.api.api_test.UserTests@4b6166aa]" started-at="2025-09-13T03:33:32 IST" name="testUpdateUser" finished-at="2025-09-13T03:33:33 IST" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+      </class> <!-- com.restassured.api.api_test.UserTests -->
+    </test> <!-- restAssured Tests -->
+  </suite> <!-- Extent Suite -->
+</testng-results>
