@@ -7,6 +7,8 @@ import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import io.restassured.response.Response;
 import com.restassured.api.utilities.Utility;
+import io.qameta.allure.*;
+import org.testng.annotations.Test;
 
 import com.restassured.api.api_endpoints.Implementation;
 import com.restassured.api.api_payload.Payload;
@@ -46,6 +48,9 @@ public class UserTests extends Payload{
         
         
     }
+    @Description("Verify user creation works with valid data")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("User Creation")
     @Test(priority = 1)
     public void testGetAllUsers(){
         Response response=Implementation.getAllUser();
@@ -96,7 +101,7 @@ public class UserTests extends Payload{
         Assert.assertEquals(response.getStatusCode(), 200);
         Assert.assertEquals(response.jsonPath().get("email"), p.getEmail());
     }
-    @Ignore
+    //@Ignore
     @Test(priority = 5)
     public void testDeleteUser(){
         Response response=Implementation.deleteUser(userId);

@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Extent_Suite" title="com.restassured.api.api_test.UserTests" class="method navigator-link" hash-for-method="testCreateUser">testCreateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Extent_Suite" title="com.restassured.api.api_test.UserTests" class="method navigator-link" hash-for-method="testDeleteUser">testDeleteUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -144,6 +149,13 @@
                   <a name="testCreateUser">
                   </a> <!-- testCreateUser -->
                   <span class="method-name">testCreateUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUser">
+                  </a> <!-- testDeleteUser -->
+                  <span class="method-name">testDeleteUser</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -224,28 +236,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testGetAllUsers')
 data.setCell(0, 2, 'com.restassured.api.api_test.UserTests')
-data.setCell(0, 3, 5023);
+data.setCell(0, 3, 6166);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testGetSpecificUser')
 data.setCell(1, 2, 'com.restassured.api.api_test.UserTests')
-data.setCell(1, 3, 2285);
+data.setCell(1, 3, 2560);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testUpdateUser')
+data.setCell(2, 1, 'testCreateUser')
 data.setCell(2, 2, 'com.restassured.api.api_test.UserTests')
-data.setCell(2, 3, 1265);
+data.setCell(2, 3, 1701);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testCreateUser')
+data.setCell(3, 1, 'testUpdateUser')
 data.setCell(3, 2, 'com.restassured.api.api_test.UserTests')
-data.setCell(3, 3, 1038);
+data.setCell(3, 3, 902);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testDeleteUser')
+data.setCell(4, 2, 'com.restassured.api.api_test.UserTests')
+data.setCell(4, 3, 525);
 window.suiteTableData['Extent_Suite']= { tableData: data, tableDiv: 'times-div-Extent_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Extent_Suite">
               </div> <!-- times-div-Extent_Suite -->
             </div> <!-- times-div -->
@@ -260,16 +276,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Extent_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.restassured.api.api_test.UserTests</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">testDeleteUser</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Extent_Suite" class="panel">
@@ -285,19 +294,23 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testGetAllUsers</span>
-                <span class="method-start">459 ms</span>
+                <span class="method-start">398 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testCreateUser</span>
-                <span class="method-start">5495 ms</span>
+                <span class="method-start">6705 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetSpecificUser</span>
-                <span class="method-start">6536 ms</span>
+                <span class="method-start">8411 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateUser</span>
-                <span class="method-start">8824 ms</span>
+                <span class="method-start">10989 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteUser</span>
+                <span class="method-start">11898 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
